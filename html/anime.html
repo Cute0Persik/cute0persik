@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <title>ANIVEST</title>
+        <link rel="stylesheet" href="../css/anons.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/anime.css">
+        <link rel="stylesheet" href="../css/main-media.css">
+        <script src="../js/jquery.min.js" defer></script>
+        <script src="../js/noudle.min.js" defer></script>
+        <script src="../js/filter.js" defer></script>
+        <link rel="preload" href="fonts/RedHatDisplay/RedHatDisplay-Regular.ttf" as="font">
+    </head>
+    <body>
+        <header class="wrap">
+            <div class="menu">
+                <img src="../img/ANIVEST.svg" alt="ANIVEST" class="menu__logo" onclick="location.href='../index.html';">
+                <ul class="menu__list">
+                    <li><a href="../html/anime.html">Аниме</a></li>
+                    <li><a href="../html/page-404.html">Популярное</a></li>
+                    <li><a href="../html/anons.html">Анонсы</a></li>
+                    <li><a href="../html/timetable.html">Расписание</a></li>
+                    <li><a href="../html/page-404.html">Новости</a></li>
+                    <a href="../html/sign.html" >
+                        <img src="../img/sign.png" class="menu__search2" title="sign" alt="sign">
+                    </a>
+                </ul>
+                <a id="menu-button" href="#!"><span></span></a>
+                <a href="../html/sign.html" class="menu__search">
+                    <img src="../img/sign.png" class="menu__search" title="sign" alt="sign">
+                </a>
+            </div>
+        </header>
+        <main class="page">
+            <article class="anons-poster">
+                <h3 class="anons-poster__main">Каталог аниме</h3>
+                <a href="../index.html" class="anons-poster__back">Главная</a>
+            </article>
+
+            <section class="check">
+                <div class="select">
+                    <input class="select__input" type="hidden" name="genre">
+                    <div class="select__head">Выберите жанр</div>
+                    <ul class="select__list" style="display: none;">
+                        <li class="select__item">Комедия</li>
+                        <li class="select__item">Романтика</li>
+                        <li class="select__item">Боевик</li>
+                        <li class="select__item">Повседневность</li>
+                        <li class="select__item">Фэнтези</li>
+                        <li class="select__item">Сенэн-ай</li>
+                    </ul>
+                </div>
+                <div class="select">
+                    <input class="select__input" type="hidden" name="years">
+                    <div class="select__head">Год выпуска</div>
+                    <ul class="select__list" style="display: none;">
+                        <li class="select__item">2016</li>
+                        <li class="select__item">2017</li>
+                        <li class="select__item">2018</li>
+                        <li class="select__item">2019</li>
+                        <li class="select__item">2020</li>
+                        <li class="select__item">2022</li>
+                    </ul>
+                </div>
+
+                <input id='one' type='checkbox'>
+                <label for='one'>
+                    <span></span>
+                    Онгоинг
+                </label>
+
+                <input id='two' type='checkbox'>
+                <label for='two'>
+                    <span></span>
+                    Вышел
+                </label>
+
+                <input id='three' type='checkbox'>
+                <label for='three'>
+                    <span></span>
+                    Анонс
+                </label>
+            </section>
+
+            <article class="anime-catalog">
+                <section class="catalog">
+                    <img class="catalog__img" src="../img/baby.jpg" alt="Ради своей дочери я смогу победить">
+                    <h4 class="catalog__title">Ради своей дочери я смогу победить</h4>
+                </section>
+                <section class="catalog">
+                    <img class="catalog__img" src="../img/githar.jpg" alt="Одинокий рокер!">
+                    <h4 class="catalog__title">Одинокий рокер!</h4>
+                </section>
+                <section class="catalog">
+                    <img class="catalog__img" src="../img/anya.jpg" alt="Семья шпионов">
+                    <h4 class="catalog__title">Семья шпионов</h4>
+                </section>
+                <section class="catalog">
+                    <img class="catalog__img" src="../img/shadow.jpg" alt="Восхождение в тени">
+                    <h4 class="catalog__title">Восхождение в тени</h4>
+                </section>
+                <section class="catalog">
+                    <img class="catalog__img" src="../img/sword.jpg" alt="Гордость убийцы">
+                    <h4 class="catalog__title">Гордость убийцы</h4>
+                </section>
+                <section class="catalog" onclick="location.href='../html/anime-page.html';">
+                    <img class="catalog__img" src="../img/death.jpg" alt="Жилой комплекс Си">
+                    <h4 class="catalog__title">Жилой комплекс Си</h4>
+                </section>
+                <section class="catalog">
+                    <img class="catalog__img" src="../img/foot.jpg" alt="Синяя тюрьма: Блю Лок">
+                    <h4 class="catalog__title">Синяя тюрьма: Блю Лок</h4>
+                </section>
+                <section class="catalog">
+                    <img class="catalog__img" src="../img/beaut.jpg" alt="Принцесса-библиофил">
+                    <h4 class="catalog__title">Принцесса-библиофил</h4>
+                </section>
+                <section class="catalog">
+                    <img class="catalog__img" src="../img/princess.jpg" alt="Месть возрожденной принцессы">
+                    <h4 class="catalog__title">Месть возрожденной принцессы</h4>
+                </section>
+                <section class="catalog">
+                    <img class="catalog__img" src="../img/himiclove.jpg" alt="Так сложно любить отаку">
+                    <h4 class="catalog__title">Так сложно любить отаку</h4>
+                </section>
+                <section class="catalog">
+                    <img class="catalog__img" src="../img/vol.jpg" alt="Развращённая гильдия">
+                    <h4 class="catalog__title">Развращённая гильдия</h4>
+                </section>
+                <section class="catalog">
+                    <img class="catalog__img" src="../img/class.jpg" alt="Класс превосходства">
+                    <h4 class="catalog__title">Класс превосходства</h4>
+                </section>
+                <section class="catalog">
+                    <img class="catalog__img" src="../img/mother.jpg" alt="Ты любишь мамочку и её двойную атаку">
+                    <h4 class="catalog__title">Ты любишь мамочку и её двойную атаку</h4>
+                </section>
+                <section class="catalog">
+                    <img class="catalog__img" src="../img/magic.jpg" alt="Старшеклассница-фокусница">
+                    <h4 class="catalog__title">Старшеклассница-фокусница</h4>
+                </section>
+                <section class="catalog">
+                    <img class="catalog__img" src="../img/darling.jpg" alt="Милый во Франксе">
+                    <h4 class="catalog__title">Милый во Франксе</h4>
+                </section>
+                <section class="catalog">
+                    <img class="catalog__img" src="../img/hero.jpg" alt="Восхождение героя щита">
+                    <h4 class="catalog__title">Восхождение героя щита</h4>
+                </section>
+            </article>
+        </main>
+        <footer class="main-information">
+            <div class="main-information__foot">
+                <img src="../img/ANIVEST.svg" alt="ANIVEST" class="foot-img">
+                <div>
+                    <p>ANIVEST - сайт, на котором ты найдешь разную информацию об аниме. Тебе понравится, присоединяйся к нам.</p>
+                </div>
+                </div>
+            <div class="main-information__src">
+                <h4>Быстрые ссылки</h4>
+                <nav class="foot-src">
+                    <a href="../index.html">Главная</a>
+                    <a>Популярное</a>
+                    <a href="../html/sign.html">Аккаунт</a>
+                </nav>
+            </div>
+            <div class="main-information__connect">
+                <h4 class="foot-title">Связаться с нами</h4>
+                <nav class="foot-info">
+                    <a>anivest@gmail.com</a>
+                    <a>+375 25 729 22 26</a>
+                </nav>
+                <nav class="foot-social">
+                    <a><img src="../img/facebook.svg" alt="facebook" class="foot-social__img"></a>
+                    <a><img src="../img/twitter.svg" alt="twitter" class="foot-social__img"></a>
+                    <a><img src="../img/instagram.svg" alt="instagram" class="foot-social__img"></a>
+                </nav>
+            </div>
+        </footer>
+    </body>
+</html>
