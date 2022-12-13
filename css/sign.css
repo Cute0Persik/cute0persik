@@ -1,0 +1,41 @@
+.sign-poster {
+    display: flex;
+    background: url('../img/your.jpg') no-repeat;
+    background-size: 100%;
+    background-position: 0 -60px;
+    width: 100%;
+    color: #C5F1FF;
+    flex-direction: column;
+    padding: 154px 0 350px 517px;
+    margin-bottom: 162px;
+}
+input[type='email'], input[type='password'] {
+    width: 100%;
+    max-width: 488px;
+    background-color: #292929;
+    color: #C5F1FF;
+    box-shadow: 0 0 4px 1C1D1E;
+    border-radius: 25px;
+    padding: 14px 15px;
+    cursor: pointer;
+}
+h3 + label {
+    margin-top: 23px;
+}
+input[type='email'] + label {
+    margin-top: 38px;
+}
+input[type='password'] + h4 {
+    margin-top: 7px;
+}
+.sign-btn {
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+    width: 18%;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+.sign-poster__main {
+    font-size: 45px;
+}

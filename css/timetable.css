@@ -1,0 +1,38 @@
+.timetable-item {
+    margin: 60px 0 0 140px;
+}
+.timetable-item:last-of-type {
+    margin: 60px 0 70px 140px;
+}
+.timetable-day {
+    height: 92px;
+    background-color: #252525;
+    width: 100%;
+    text-align: center;
+    margin-top: 81px;
+    font-size: 26px;
+    color: #C5F1FF;
+    padding-top: 29px;
+}
+.timetable-day:last-of-type {
+    margin-top: 114px;
+}
+.time-item__img {
+    width: 100%;
+    max-width: 293px;
+    border-radius: 25px;
+    height: 390px;
+}
+.time-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 293px;
+}
+.time-item__title {
+    display: block;
+    font-size: 28px;
+    color: #C5F1FF;
+    line-height: 35px;
+    font-weight: normal;
+}

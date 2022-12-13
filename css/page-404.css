@@ -1,0 +1,8 @@
+.forest {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: url('../img-404/forest.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}

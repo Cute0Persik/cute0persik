@@ -1,0 +1,113 @@
+.anime-pagemain {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    padding: 125px 130px 78px 140px;
+    background: url('../img/ci.jpg') no-repeat;
+    background-size: 100%;
+    background-position: 0 -60px;
+}
+.anime-pagemain__video {
+    width: 100%;
+    max-width: 609px;
+    align-self: center;
+    margin-right: 1%;
+}
+.anime-pagemain__block {
+    display: flex;
+    flex-direction: column;
+    gap: 4%;
+    width: 45%;
+}
+.anime-pagemain__title {
+    font-size: 49px;
+    margin-bottom: 4%;
+}
+.anime-pagemain__text {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 6px;
+}
+.anime-pagemain__buttons {
+    width: 100%;
+}
+.anime-pagemain__download {
+    margin-right: 40px;
+    width: 130px;
+}
+.anime-pagemain__time {
+    margin-right: 40px;
+    width: 155px;
+}
+.anime-pagemain__love {
+    width: 143px;
+}
+.cadr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3.8%;
+}
+.cadr-title {
+    font-size: 47px;
+    width: 100%;
+    color: #C5F1FF;
+    padding: 125px 90px 70px 140px;
+}
+.cadr-img {
+    width: 100%;
+    max-width: 363px;
+    height: 239px;
+    transition: 0.5s;
+}
+.cadr-img:hover {
+    transform: scale(1.2); 
+    box-shadow: 0 0 0 99999px rgba(0, 0, 0, 0.563);
+}
+.page-item {
+    display: flex;
+    flex-direction: row;
+    padding: 131px 100px 0 140px;
+}
+.page-item__title {
+    font-size: 47px;
+    color: #C5F1FF;
+    margin-bottom: 40px;
+    line-height: 50px;
+}
+.page-item__img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 25px;
+    height: 390px;
+    margin-right: 25px;
+    transition: 0.5s;
+}
+.page-item__img:hover {
+    transform: scale(1.4); 
+    box-shadow: 0 0 0 99999px rgba(0, 0, 0, 0.563);
+}
+.page-item__img2 {
+    width: 100%;
+    border-radius: 25px;
+    display: none;
+}
+.page-item__text {
+    line-height: 25px;
+}
+.page-title {
+    font-size: 47px;
+    color: #C5F1FF;
+    padding: 160px 90px 57px 140px;
+}
+.page-page {
+    padding: 20px 0 95px 0;
+}
+
+
+
+
+
+
+
