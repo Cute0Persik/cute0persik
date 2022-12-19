@@ -326,7 +326,7 @@
   }
   #menu-button {
     right: 5%;
-    top: 4%;
+    top: 2%;
   }
   .anime-catalog {
     display: flex;
@@ -539,7 +539,7 @@
   }
   #menu-button {
     right: 5%;
-    top: 3.5%;
+    top: 3%;
   }
   .item-title {
     font-size: 22px;
